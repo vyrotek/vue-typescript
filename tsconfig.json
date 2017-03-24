@@ -15,15 +15,12 @@
     "removeComments": false,
     "target": "es5",
     "types": [
+      "node",
       "vue-typescript-import-dts"
     ]
   },
   "exclude": [
     "node_modules",
     "dist"
-  ],
-  "formatCodeOptions": {
-    "indentSize": 2,
-    "tabSize": 2
-  }
+  ]
 }

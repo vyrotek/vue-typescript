@@ -30,7 +30,7 @@ module.exports = {
     },
 
     plugins: [
-        new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }]),
+        // new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }]),
         new HtmlWebpackPlugin({
             template: 'src/index.html',
             inject: true
